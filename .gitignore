@@ -1,0 +1,18 @@
+# Logs
+npm-debug.log*
+firebase-debug.log*
+
+# Firebase cache
+.firebase/
+
+# OSX
+.DS_Store
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+build
+node_modules

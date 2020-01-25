@@ -1,0 +1,21 @@
+{
+    "short_name": "Vnoit",
+    "name": "Vinoth Kumar",
+    "icons": [
+        {
+            "sizes": "192x192",
+            "type": "image/png",
+            "src": "./images/pwa/192x192.png"
+        },
+        {
+            "sizes": "512x512",
+            "type": "image/png",
+            "src": "./images/pwa/512x512.png"
+        }
+    ],
+    "scope": "/",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#2d2e2e",
+    "background_color": "#2d2e2e"
+}
