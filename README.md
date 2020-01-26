@@ -25,6 +25,3 @@ Angular and
 Google Firebase
 
 [Twitter](https://twitter.com/vnoitkumar) | [LinkedIn](https://www.linkedin.com/in/vnoitkumar/)
-
-Location - [Chennai, India](https://goo.gl/maps/JTKDJt1uG8vbtvvi7) |
-Email - [vnoitkumar@gmail.com](mailto:vnoitkumar@gmail.com)
