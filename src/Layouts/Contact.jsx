@@ -30,7 +30,7 @@ class Contact extends Component {
                   </div>
                   <div class='col-md-3 col-xs-6'>
                     <h5>Web</h5>
-                    <a href='http://praszad.com/'>Praszad.com</a>
+                    <a href='https://praszad.com/'>https://praszad.com</a>
                   </div>
                 </div>
               </div>
