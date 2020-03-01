@@ -5,16 +5,16 @@ class About extends Component {
   render() {
     return (
       <div id='about'>
-        <div class='container content-lg'>
-          <div class='row'>
-            <div class='col-sm-3 sm-margin-b-30'>
-              <div class='text-right sm-text-left'>
-                <h2 class='margin-b-0'>Intro</h2>
+        <div className='container content-lg'>
+          <div className='row'>
+            <div className='col-sm-3 sm-margin-b-30'>
+              <div className='text-right sm-text-left'>
+                <h2 className='margin-b-0'>Intro</h2>
                 <p>What I am all about.</p>
               </div>
             </div>
-            <div class='col-sm-8 col-sm-offset-1'>
-              <div class='margin-b-60'>
+            <div className='col-sm-8 col-sm-offset-1'>
+              <div className='margin-b-60'>
                 <p>
                   I'm Prasad Babu, a developer with 2+ years of experience in
                   web development. Worked in complete life cycle of projects.
@@ -30,88 +30,90 @@ class About extends Component {
                 </p>
               </div>
 
-              <div class='progress-box'>
+              <div className='progress-box'>
                 <h5>
-                  HTML-CSS <span class='color-heading pull-right'>70%</span>
+                  HTML-CSS <span className='color-heading pull-right'>70%</span>
                 </h5>
-                <div class='progress'>
+                <div className='progress'>
                   <div
-                    class='progress-bar bg-color-base'
+                    className='progress-bar bg-color-base'
                     role='progressbar'
                     data-width='70'
                   ></div>
                 </div>
               </div>
 
-              <div class='progress-box'>
+              <div className='progress-box'>
                 <h5>
                   Core JavaSript{' '}
-                  <span class='color-heading pull-right'>85%</span>
+                  <span className='color-heading pull-right'>85%</span>
                 </h5>
-                <div class='progress'>
+                <div className='progress'>
                   <div
-                    class='progress-bar bg-color-base'
+                    className='progress-bar bg-color-base'
                     role='progressbar'
                     data-width='85'
                   ></div>
                 </div>
               </div>
-              <div class='progress-box'>
+              <div className='progress-box'>
                 <h5>
-                  Socket-Io <span class='color-heading pull-right'>75%</span>
+                  Socket-Io{' '}
+                  <span className='color-heading pull-right'>75%</span>
                 </h5>
-                <div class='progress'>
+                <div className='progress'>
                   <div
-                    class='progress-bar bg-color-base'
+                    className='progress-bar bg-color-base'
                     role='progressbar'
                     data-width='75'
                   ></div>
                 </div>
               </div>
-              <div class='progress-box'>
+              <div className='progress-box'>
                 <h5>
-                  Angular 6 <span class='color-heading pull-right'>64%</span>
+                  Angular 6{' '}
+                  <span className='color-heading pull-right'>64%</span>
                 </h5>
-                <div class='progress'>
+                <div className='progress'>
                   <div
-                    class='progress-bar bg-color-base'
+                    className='progress-bar bg-color-base'
                     role='progressbar'
                     data-width='64'
                   ></div>
                 </div>
               </div>
 
-              <div class='progress-box'>
+              <div className='progress-box'>
                 <h5>
-                  React-Js <span class='color-heading pull-right'>80%</span>
+                  React-Js <span className='color-heading pull-right'>80%</span>
                 </h5>
-                <div class='progress'>
+                <div className='progress'>
                   <div
-                    class='progress-bar bg-color-base'
+                    className='progress-bar bg-color-base'
                     role='progressbar'
                     data-width='80'
                   ></div>
                 </div>
               </div>
-              <div class='progress-box'>
+              <div className='progress-box'>
                 <h5>
-                  Node-Js <span class='color-heading pull-right'>76%</span>
+                  Node-Js <span className='color-heading pull-right'>76%</span>
                 </h5>
-                <div class='progress'>
+                <div className='progress'>
                   <div
-                    class='progress-bar bg-color-base'
+                    className='progress-bar bg-color-base'
                     role='progressbar'
                     data-width='76'
                   ></div>
                 </div>
               </div>
-              <div class='progress-box'>
+              <div className='progress-box'>
                 <h5>
-                  Git <span class='color-heading pull-right'>80%</span>
+                  Git <span className='color-heading pull-right'>80%</span>
                 </h5>
-                <div class='progress'>
+                <div className='progress'>
                   <div
-                    class='progress-bar bg-color-base'
+                    className='progress-bar bg-color-base'
                     role='progressbar'
                     data-width='80'
                   ></div>
