@@ -5,28 +5,28 @@ class Header extends Component {
   render() {
     return (
       <React.Fragment>
-        <header class='header navbar-fixed-top'>
-          <nav class='navbar' role='navigation'>
-            <div class='container'>
-              <div class='menu-container js_nav-item'>
+        <header className='header navbar-fixed-top'>
+          <nav className='navbar' role='navigation'>
+            <div className='container'>
+              <div className='menu-container js_nav-item'>
                 <button
                   type='button'
-                  class='navbar-toggle'
+                  className='navbar-toggle'
                   data-toggle='collapse'
                   data-target='.nav-collapse'
                 >
-                  <span class='sr-only'>Toggle navigation</span>
-                  <span class='toggle-icon'></span>
+                  <span className='sr-only'>Toggle navigation</span>
+                  <span className='toggle-icon'></span>
                 </button>
-                <div class='logo'>
-                  <a class='logo-wrap' href='#body'>
+                <div className='logo'>
+                  <a className='logo-wrap' href='#body'>
                     <img
-                      class='logo-img logo-img-main'
+                      className='logo-img logo-img-main'
                       src='img/logo.png'
                       alt='Asentus Logo'
                     />
                     <img
-                      class='logo-img logo-img-active'
+                      className='logo-img logo-img-active'
                       src='img/logo-dark.png'
                       alt='Asentus Logo'
                     />
@@ -34,34 +34,40 @@ class Header extends Component {
                 </div>
               </div>
 
-              <div class='collapse navbar-collapse nav-collapse'>
-                <div class='menu-container'>
-                  <ul class='nav navbar-nav navbar-nav-right'>
-                    <li class='js_nav-item nav-item'>
-                      <a class='nav-item-child nav-item-hover' href='#root'>
+              <div className='collapse navbar-collapse nav-collapse'>
+                <div className='menu-container'>
+                  <ul className='nav navbar-nav navbar-nav-right'>
+                    <li className='js_nav-item nav-item'>
+                      <a className='nav-item-child nav-item-hover' href='#root'>
                         Home
                       </a>
                     </li>
-                    <li class='js_nav-item nav-item'>
-                      <a class='nav-item-child nav-item-hover' href='#about'>
+                    <li className='js_nav-item nav-item'>
+                      <a
+                        className='nav-item-child nav-item-hover'
+                        href='#about'
+                      >
                         About
                       </a>
                     </li>
-                    <li class='js_nav-item nav-item'>
+                    <li className='js_nav-item nav-item'>
                       <a
-                        class='nav-item-child nav-item-hover'
+                        className='nav-item-child nav-item-hover'
                         href='#experience'
                       >
                         Experience
                       </a>
                     </li>
-                    {/* <li class="js_nav-item nav-item">
-                      <a class="nav-item-child nav-item-hover" href="#work">
+                    {/* <li className="js_nav-item nav-item">
+                      <a className="nav-item-child nav-item-hover" href="#work">
                         Work
                       </a>
                     </li> */}
-                    <li class='js_nav-item nav-item'>
-                      <a class='nav-item-child nav-item-hover' href='#contact'>
+                    <li className='js_nav-item nav-item'>
+                      <a
+                        className='nav-item-child nav-item-hover'
+                        href='#contact'
+                      >
                         Contact
                       </a>
                     </li>
@@ -72,45 +78,51 @@ class Header extends Component {
           </nav>
         </header>
         <div
-          class='promo-block parallax-window'
+          className='promo-block parallax-window'
           data-parallax='scroll'
           data-image-src='img/1920x1080/01.jpg'
         >
-          <div class='container'>
-            <div class='row'>
-              <div class='col-sm-6'>
-                <div class='promo-block-divider'>
-                  <h1 class='promo-block-title'>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-sm-6'>
+                <div className='promo-block-divider'>
+                  <h1 className='promo-block-title'>
                     Prasad <br />
                     Babu
                   </h1>
-                  <p class='promo-block-text'>Web Developer</p>
+                  <p className='promo-block-text'>Web Developer</p>
                 </div>
-                <ul class='list-inline'>
+                <ul className='list-inline'>
                   <li>
-                    <a href='https://github.com/praszad' class='social-icons'>
-                      <i class='icon-social-github'></i>
+                    <a
+                      href='https://github.com/praszad'
+                      className='social-icons'
+                    >
+                      <i className='icon-social-github'></i>
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.facebook.com/impraszad'
-                      class='social-icons'
+                      className='social-icons'
                     >
-                      <i class='icon-social-facebook'></i>
+                      <i className='icon-social-facebook'></i>
                     </a>
                   </li>
                   <li>
-                    <a href='https://twitter.com/praszad' class='social-icons'>
-                      <i class='icon-social-twitter'></i>
+                    <a
+                      href='https://twitter.com/praszad'
+                      className='social-icons'
+                    >
+                      <i className='icon-social-twitter'></i>
                     </a>
                   </li>
                   <li>
                     <a
                       href='https://www.linkedin.com/in/praszad'
-                      class='social-icons'
+                      className='social-icons'
                     >
-                      <i class='icon-social-linkedin'></i>
+                      <i className='icon-social-linkedin'></i>
                     </a>
                   </li>
                 </ul>
