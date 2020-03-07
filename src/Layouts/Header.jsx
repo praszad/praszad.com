@@ -95,14 +95,17 @@ class Header extends Component {
                 <ul className='list-inline'>
                   <li>
                     <a
+                      target='_blank'
                       href='https://github.com/praszad'
                       className='social-icons'
                     >
                       <i className='icon-social-github'></i>
                     </a>
                   </li>
+
                   <li>
                     <a
+                      target='_blank'
                       href='https://www.facebook.com/impraszad'
                       className='social-icons'
                     >
@@ -111,6 +114,7 @@ class Header extends Component {
                   </li>
                   <li>
                     <a
+                      target='_blank'
                       href='https://twitter.com/praszad'
                       className='social-icons'
                     >
@@ -119,6 +123,7 @@ class Header extends Component {
                   </li>
                   <li>
                     <a
+                      target='_blank'
                       href='https://www.linkedin.com/in/praszad'
                       className='social-icons'
                     >
