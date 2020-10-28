@@ -1,35 +1,24 @@
 {
-  "name": "silver",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "/",
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0"
-  },
+  "name": "praszad.com",
+  "version": "1.0.0",
+  "description": "Praszad frontend Web developer with 3+ years of experience in React, Angular and PHP",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy": "rm -rf build/ && mkdir build && cp -r src/* build/ && cp -r src/.well-known build/.well-known",
+    "minify-html": "htmlminify src/index.html > build/index.html && htmlminify src/privacy-policy.html > build/privacy-policy.html",
+    "minify-css": "postcss src/css/main.css > build/css/main.css && postcss src/css/fontawesome/css/all.css > build/css/fontawesome/css/all.css",
+    "minify-js": "minify src/cache-polyfill.js > build/cache-polyfill.js && minify src/sw.js > build/sw.js",
+    "minify": "npm run minify-html && npm run minify-css && npm run minify-js",
+    "build": "npm run copy && npm run minify",
+    "deploy": "npm run build && firebase deploy"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "prasad babu",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-minify": "^0.5.1",
+    "cssnano": "^4.1.10",
+    "html-minify": "^0.3.2",
+    "postcss-cli": "^7.1.0",
+    "uglify-js": "^3.7.6"
   }
 }
