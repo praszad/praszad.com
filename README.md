@@ -1,4 +1,4 @@
-# [#vnoitkumar](https://www.google.com/search?q=%23vnoitkumar) - Vinoth Kumar
+# [#vnoitkumar](https://www.google.com/search?q=%23praszad) - Prasad Babu
 
 [![Build Status](https://travis-ci.org/vnoitkumar/vnoit.com.svg?branch=master)](https://travis-ci.org/vnoitkumar/vnoit.com)
 
@@ -24,4 +24,4 @@ NoSQL,
 Angular and
 Google Firebase
 
-[Twitter](https://twitter.com/vnoitkumar) | [LinkedIn](https://www.linkedin.com/in/vnoitkumar/)
+[Twitter](https://twitter.com/praszad) | [LinkedIn](https://www.linkedin.com/in/praszad)

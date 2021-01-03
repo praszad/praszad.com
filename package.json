@@ -1,7 +1,7 @@
 {
-  "name": "vnoit.com",
+  "name": "praszad.com",
   "version": "1.0.0",
-  "description": "Web Developer, proficient in React, Laravel, AWS, GCP, Docker, PWA, TWA and have experience working in Node Js.",
+  "description": "Praszad frontend Web developer with 3+ years of experience in React, Angular and PHP",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "copy": "rm -rf build/ && mkdir build && cp -r src/* build/ && cp -r src/.well-known build/.well-known",
@@ -12,7 +12,7 @@
     "build": "npm run copy && npm run minify",
     "deploy": "npm run build && firebase deploy"
   },
-  "author": "vnoitkumar",
+  "author": "prasad babu",
   "license": "MIT",
   "devDependencies": {
     "babel-minify": "^0.5.1",

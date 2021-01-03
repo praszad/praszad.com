@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.vnoit.portfolio",
+      "package_name": "com.praszad.portfolio",
       "sha256_cert_fingerprints": [
         "2D:70:E7:BE:9A:19:20:19:9C:D2:BD:19:9B:C1:9F:17:3A:00:A3:F5:D6:95:0F:3E:0D:10:BA:48:F3:6A:96:83"
       ]
