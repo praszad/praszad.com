@@ -1,6 +1,6 @@
-# [#vnoitkumar](https://www.google.com/search?q=%23praszad) - Prasad Babu
+# [#praszad](https://www.google.com/search?q=%23praszad) - Prasad Babu
 
-[![Build Status](https://travis-ci.org/vnoitkumar/vnoit.com.svg?branch=master)](https://travis-ci.org/vnoitkumar/vnoit.com)
+[![Build Status](https://travis-ci.com/praszad/praszad.com.svg?branch=master)](https://travis-ci.com/praszad/praszad.com)
 
 Web Developer, skilled in all stages of the development life cycle for a dynamic web project.
 
